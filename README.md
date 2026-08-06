@@ -6,9 +6,12 @@ This program may work with one or multiple subjects; you may enter multiple subj
 
 Outputs include subjects' data from user inputs, users' BMI values, their BMI categories (underweight, overweight, etc.), and their suggested daily caloric intake, as well as summary statistics including mean, minimum, and maximum BMI among all subjects and number of subjects in each BMI category.
 
-Outputs may also include caloric 
+Outputs may also include subjects' suggested daily caloric intakes at different activity levels and weight goals if the user prompts the program to calculate such information. 
 
-All outputs are calculated based on real-world formulas and data (BMI formula, Mifflin-St. Jeor equation, .
+Three graphs will be displayed after subjects' information has been collected. One is line graph that will show subjects' weights vs their heights, with a reference line that indicates what a healthy weight at a certain height should be. The other two are bar charts that display subjects' BMI values and their suggested caloric intakes, with reference lines displaying healthy BMI and caloric value ranges for men and women. 
+
+All outputs are calculated based on real-world formulas and data. This includes the CDC's BMI formula, the Mifflin-St. Jeor equation for calculating Basal Metabolic Rate, and the National Academy of Sports Medicine's method of calculating Total Daily Energy Expenditure and caloric intake based on desire to lose, gain, or maintain weight. 
+
 
 --How to use--
 
